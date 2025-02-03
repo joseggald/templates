@@ -1,0 +1,11 @@
+[install]
+# Establece el registro de paquetes
+registry = "https://registry.npmjs.org"
+
+[install.scopes]
+# Configuración para scopes privados si los tienes
+# example = "https://registry.example.com"
+
+[test]
+# Configuración para tests
+coverage = true
